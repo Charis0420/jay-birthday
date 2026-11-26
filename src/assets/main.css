@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+
+/* 全站温柔低饱和治愈基调 */
+@theme {
+  --color-cream: #f7f1ea;
+  --color-blush: #f3d9d9;
+  --color-rose-soft: #e8b7b7;
+  --color-ink: #3a3330;
+  --color-ink-soft: #7a6f6a;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'PingFang SC',
+    'Hiragino Sans GB',
+    'Microsoft YaHei',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
